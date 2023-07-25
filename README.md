@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor | 3 Column Preview Card Component coding challenge solution](https://www.frontendmentor.io/solutions/3-column-preview-card-component-OwKqSjP2ty)
 - Live Site URL: [3-column-preview-card-component](https://shohanojjaman.github.io/3-column-preview-card-component/)
 
 ## My process
