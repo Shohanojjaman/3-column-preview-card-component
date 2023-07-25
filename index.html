@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3 Column Preview Card Component</title>
 
+    <!-- Google Font Link Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+        rel="stylesheet">
     <!-- Favicon Link Here -->
     <link rel="shortcut icon" href="image/favicon-32x32.png" type="image/x-icon">
 
@@ -14,12 +19,38 @@
 
 </head>
 
-<body>
+<body class="font-lexend-deca text-transparent-white">
     <header>
 
     </header>
-    <main>
+    <main class="container mx-auto px-6 sm:px-0 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 max-w-xs lg:max-w-4xl mx-auto">
+            <div class="bg-[#e38826] p-16 space-y-8 max-lg:rounded-t-xl lg:rounded-l-xl">
+                <img src="./image/icon-sedans.svg" alt="">
+                <h1 class="font-big-shoulders-display text-4xl text-white uppercase">sedans</h1>
+                <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+                    or on your next road trip.</p>
+                <a href="#" class="btn text-[#e38826]">Learn
+                    More</a>
+            </div>
+            <div class="bg-[#006970] p-16 space-y-8">
+                <img src="./image/icon-suvs.svg" alt="">
+                <h1 class="font-big-shoulders-display text-4xl text-white uppercase">SUVs</h1>
+                <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+                    or on your next road trip.</p>
+                <a class="btn text-[#006970]">
+                    Learn More</a>
 
+            </div>
+            <div class="bg-[#004241] p-16 space-y-8 max-lg:rounded-b-xl lg:rounded-r-xl">
+                <img src="./image/icon-luxury.svg" alt="">
+                <h1 class="font-big-shoulders-display text-4xl text-white uppercase">Luxury</h1>
+                <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+                    or on your next road trip.</p>
+                <a class="btn text-[#004241]">
+                    Learn More</a>
+            </div>
+        </div>
     </main>
     <footer>
 
